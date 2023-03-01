@@ -1,0 +1,11 @@
+name: test workflow
+on: workflow_dispatch
+
+jobs:
+  First-test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Print
+        run: echo "This is first print"
+      - name: Second step
+        run: echo " This is second step"
